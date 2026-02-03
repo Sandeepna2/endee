@@ -1,0 +1,32 @@
+services:
+  # Endee Vector Database
+  endee:
+    image: endeeio/endee-server:latest
+    container_name: endee-server
+    ports:
+      - "8080:8080"
+    environment:
+      NDD_AUTH_TOKEN: "" # No auth for local demo
+    volumes:
+      - endee-data:/data
+    restart: unless-stopped
+
+  # Semantic Search App (Backend + Frontend)
+  app:
+    build: .
+    container_name: semantic-search-app
+    ports:
+      - "5000:5000"
+    depends_on:
+      - endee
+    environment:
+      # If we needed to configure Endee URL, we would do it here.
+      # Currently code defaults to localhost:8080. 
+      # In Docker, we should use the service name 'endee'.
+      ENDEE_HOST: "endee"
+    volumes:
+      - ./backend/doc_map.json:/app/backend/doc_map.json # Persist doc map
+    restart: unless-stopped
+
+volumes:
+  endee-data:

@@ -1,0 +1,15 @@
+Artificial Intelligence (AI) is the intelligence of machines or software, as opposed to the intelligence of human beings or animals. It is a field of study in computer science that develops and studies intelligent machines. Such machines may be called AIs.
+
+Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without explicit instructions.
+
+Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Learning can be supervised, semi-supervised or unsupervised.
+
+Semantic search denotes search with meaning, as distinguished from lexical search where the search engine looks for literal matches of the query words or variants of them, without understanding the overall meaning of the query.
+
+Vector database is a database that indexes and stores vector embeddings for fast retrieval and similarity search, with capabilities like CRUD operations, metadata filtering, and horizontal scaling.
+
+Natural language processing (NLP) is an interdisciplinary subfield of computer science and information retrieval. It is primarily concerned with giving computers the ability to support and manipulate human language.
+
+Computer vision is a field of artificial intelligence that enables computers and systems to derive meaningful information from digital images, videos and other visual inputs.
+
+Robotics is an interdisciplinary branch of computer science and engineering. Robotics involves design, construction, operation, and use of robots.
