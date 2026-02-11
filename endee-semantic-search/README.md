@@ -2,7 +2,7 @@
 
 This AI application implements a high-performance **Semantic Search** system powered by the **Endee Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
 
-## Key Features
+## Key Features 
 
 - **Semantic Vector Search**: Uses state-of-the-art embeddings to find relevant content even when search terms don't match exactly.
 - **Similarity Recommendations**: "Find Similar" feature to explore related segments of the knowledge base.
@@ -148,3 +148,4 @@ Endee serves as the core engine for this project. We interact with its API to:
 - **Manage Collections**: Dynamically create and drop indexes.
 - **Vector Storage**: Store 384-dimension document embeddings with JSON payloads.
 - **Vector Search**: Perform lightning-fast cosine similarity searches for query vectors.
+
