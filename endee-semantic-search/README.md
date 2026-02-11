@@ -14,20 +14,20 @@ This AI application implements a high-performance **Semantic Search** system pow
    <tr> 
       <td align="center"> 
          <h4>🟣 Search Home</h4> 
-         <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/7416faf3-cfbc-4ea0-b612-1bd137bd71fb" width="500"/> 
+         <img width="1366" height="726" alt="image" src="./screenshots/search_home.png" width="500"/> 
       </td> 
       <td align="center"> 
          <h4>🟣 Search Results</h4> 
-         <img width="1364" height="726" alt="image" src="https://github.com/user-attachments/assets/e4813cc4-7566-4c04-89ea-c916ccdb749c" width="500"/> 
+         <img width="1364" height="726" alt="image" src="./screenshots/search_results.png" width="500"/> 
       </td> 
    </tr> 
    <tr> 
       <td align="center"> 
          <h4>🟣 Similarity Recommendation</h4>
-        <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/87f4ac6b-3117-4466-b84d-102f7f30aa58" width="500"/> 
+        <img width="1366" height="726" alt="image" src="./screenshots/similarity_recommendation.png" width="500"/> 
       </td> <td align="center"> 
          <h4>🟣 Ranked Semantic Matches</h4>
-         <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/304f5f7e-2677-41cd-8cba-309be13d4c0c" width="500"/> 
+         <img width="1366" height="726" alt="image" src="./screenshots/ranked_matches.png" width="500"/> 
       </td> 
    </tr>
 </table> 
@@ -94,21 +94,21 @@ The application is fully containerized for consistent deployment. Below is the c
    <tr> 
       <td align="center"> 
          <h4>🟣 Container Status</h4> 
-         <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/ba4e2c72-af38-4491-9158-b6bf1430225e" />
+         <img width="1366" height="726" alt="image" src="./screenshots/docker_containers.png" />
       </td> 
       <td align="center"> 
          <h4>🟣 Image Registry</h4> 
-        <img width="1366" height="727" alt="image" src="https://github.com/user-attachments/assets/851b3803-eb9a-45b7-ae41-baaff7730e28" /> 
+        <img width="1366" height="727" alt="image" src="./screenshots/docker_images.png" /> 
       </td> 
    </tr> 
    <tr> 
       <td align="center"> 
          <h4>🟣 Volume Persistence</h4> 
-        <img width="1366" height="728" alt="image" src="https://github.com/user-attachments/assets/43e2553b-2a91-44ab-8fd8-e6224cfe316d" />
+        <img width="1366" height="728" alt="image" src="./screenshots/docker_volumes.png" />
       </td> 
       <td align="center"> 
          <h4>🟣 Build History</h4> 
-         <img width="1366" height="726" alt="image" src="https://github.com/user-attachments/assets/b7442eb8-7f3d-44c2-8d7b-73b3b5914995" />
+         <img width="1366" height="726" alt="image" src="./screenshots/docker_builds.png" />
       </td> 
    </tr> 
 </table>
@@ -121,7 +121,7 @@ Overview of the <b>semantic_docs</b> vector index configured with 384-dimensiona
    <tr> 
       <td align="center"> 
          <h4>🟣 Index Overview</h4> 
-         <img width="500" alt="image" src="https://github.com/user-attachments/assets/665a3c4e-a592-4891-acad-cbb81db2fadc" />
+         <img width="500" alt="image" src="./screenshots/index_overview.png" />
          <p><i>Real-time monitoring of the <b>semantic_docs</b> index (384 Dimensions, Cosine Space).
       </td> 
    </tr> 
