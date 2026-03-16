@@ -1,6 +1,8 @@
 # Endee Semantic Search Project
 
-This AI application implements a high-performance **Semantic Search** system powered by the **Endee Vector Database**. It enables searching through text documents based on their underlying meaning and intent, rather than relying solely on literal keyword matching.
+Traditional keyword search systems fail to capture the semantic meaning of user queries. For example, searching for "AI applications" may not return documents containing "Artificial Intelligence systems".
+
+This project demonstrates how vector embeddings and the Endee vector database enable semantic search, allowing users to retrieve relevant documents based on meaning rather than exact keyword matches.
 
 ## Key Features 
 
